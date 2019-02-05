@@ -222,7 +222,7 @@ However, if this `useBailout()` Hook was real, you would never know the reason a
 
 It’s like if you were looking for a screwdriver in a chest of drawers, and each drawer contained a bunch of smaller chests of drawers, and you don’t know how deep the rabbit hole goes.
 
-**Verdict:** 🔴 Not only `useBailout()` Hook breaks composition, but it also vastly increases the number of debugging steps and cognitive load for finding a buggy bailout — in some cases, exponentially.
+**Verdict:** 🔴 Not only does a `useBailout()` Hook break composition, it also vastly increases the number of debugging steps and cognitive load for finding a buggy bailout — in some cases, exponentially.
 
 ---
 
